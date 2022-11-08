@@ -1,13 +1,17 @@
 import React from 'react';
+import { tags } from '../utils/data'
+import { useStore } from '../zustand/useStore'
 
 import '../styles/ListRow.css'
 
-const ListRow = props => {
+const ListRow = () => {
+
+  const { inputs, insertItem } = useStore()
 
   return (  
     <div className='root-list'>
-      {props.data.map(item => (
-        <button className='items' onClick={() => props.add(item)}>{item.label}
+      {tags.map(item => (
+        <button className='items' onClick={() => insertItem(item)} key={item._uid} disabled={inputs.some(element => element._uid === item._uid)}>{item.label}
         </button>
       ))}
     </div>

@@ -14,5 +14,6 @@
 
 .input-form {
   width: 200px;
-  height: 20px
+  height: 20px;
+  margin-bottom: 6px;
 }

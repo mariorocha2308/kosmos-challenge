@@ -1,4 +1,4 @@
-const fields = [
+const tags = [
   {
     component: 'text',
     label: 'FirstName',
@@ -25,4 +25,4 @@ const fields = [
   }
 ]
 
-export { fields }
+export { tags }
