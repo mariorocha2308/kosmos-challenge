@@ -1,0 +1,20 @@
+.root-list {
+  width: 20%;
+}
+
+.items {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #2E2E2E;
+  color: white;
+  padding: 2px;
+  font-weight: bold;
+  margin-top: 4px;
+  height: 30px;
+  width: 120px;
+  border-radius: 2px;
+  cursor: pointer;
+  border: none;
+}

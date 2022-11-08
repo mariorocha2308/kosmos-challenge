@@ -1,0 +1,10 @@
+.root-render {
+  display: flex;
+  box-sizing: border-box;
+  padding: 1rem;
+  width: 100%;
+  height: 50vh;
+  background-color: rgb(250, 250, 250);
+
+  overflow-y: scroll;
+}
